@@ -18,16 +18,25 @@
             padding: 30px;
         }
         .box {
-            background: rgba(225,255,255,0.08);
-            margin: 20px auto;
+            background: rgba(225,255,255,0.1);
+            backdrop-filter:blur(10px);
             padding: 25px;
-            width: 80%;
+            width: 300px;
+            transition:0.3s;
             border-radius: 15px;
             box-shadow: 0 0 25px rgba(138,43,226,0.4);
         }
+        .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
         h2 {
             color: #d580ff;
         }
+        h1 {
+  font-size: 40px;
+  text-shadow: 0 0 20px #c084fc;
+}
         .github-btn {
   display: inline-block;
   padding: 12px 25px;
